@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+
+#sidebar {
+  height: 100%;
+  min-height: 100vh;
+  min-width: 180px;
+}
+.row-custom {
+  background-color: #333;
+}
+img {
+  max-width: 100%;
+  margin-bottom: 0.5em;
+  display: block;
+  object-fit: cover;
+}
+.gallery {
+  columns: 3 320px;
+  column-gap: 0.5em;
+}
